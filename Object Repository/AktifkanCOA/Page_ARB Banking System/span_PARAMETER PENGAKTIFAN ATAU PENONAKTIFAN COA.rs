@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA</name>
+   <tag></tag>
+   <elementGuidId>f3313620-0b48-43b5-8976-678d116a9913</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='xui.UI.Dialog-CAPTION:h:']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f00b5252-ea25-4e49-87aa-d5489a3e2532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>a4f611f2-6fe1-4ab9-b50d-b04b4afc5f6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>xui.UI.Dialog-CAPTION:h:</value>
+      <webElementGuid>6af2f095-8aa3-45b6-8da2-b31808b90927</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>xui-node xui-node-span xui-dialog-caption xui-title-node     xui-custom</value>
+      <webElementGuid>0a30646f-d4b5-4c14-b11e-23ef4ae1d086</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA</value>
+      <webElementGuid>1a94dfb1-0475-4cd7-b3a7-218e98d39f25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;xui.UI.Dialog-CAPTION:h:&quot;)</value>
+      <webElementGuid>7c654fee-f532-4f41-acb8-e682becb6bcc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='xui.UI.Dialog-CAPTION:h:']</value>
+      <webElementGuid>11147669-527e-43d0-9482-1dd63e1c0b61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='xui.UI.Dialog-BARCMDL:h:']/span[4]</value>
+      <webElementGuid>271d204b-afc8-4f23-a0c6-48ddca4b9d9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='c'])[1]/following::span[20]</value>
+      <webElementGuid>f5b3f89e-ba60-4975-ba1e-bf2d4cda28c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::span[23]</value>
+      <webElementGuid>b54ab552-c4db-46fc-8031-d9c714fb5bf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA'])[2]/preceding::span[27]</value>
+      <webElementGuid>ccfd362e-19ce-47d6-b5e1-b2c939a9dcdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Button'])[1]/preceding::span[29]</value>
+      <webElementGuid>9eecd9f0-862b-4c36-af64-b5207e10e464</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA']/parent::*</value>
+      <webElementGuid>3ad75bc8-cecd-48a2-8cab-c61222778fe6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/span/span/div/div/span[4]</value>
+      <webElementGuid>7117ea31-c6f5-46d5-9c5a-42becabdc5e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'xui.UI.Dialog-CAPTION:h:' and (text() = 'PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA' or . = 'PARAMETER PENGAKTIFAN ATAU PENONAKTIFAN COA')]</value>
+      <webElementGuid>57392d66-1925-4b9b-9afd-cd3fb3b74aa0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

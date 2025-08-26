@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HapusDataDigunakanModulTerkait</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4012dd30-76c9-4e34-9a08-81a7e9cbc65c</testCaseGuid>
+</TestCaseEntity>
