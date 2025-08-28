@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TS002 - Parameter Daftar COA</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>c98ebed1-88e0-42f8-a3b6-86c666c89a7c</testCaseGuid>
-</TestCaseEntity>
