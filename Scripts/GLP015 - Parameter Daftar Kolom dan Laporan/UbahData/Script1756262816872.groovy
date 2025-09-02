@@ -22,29 +22,34 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://192.168.1.239:8080/CoreMain/spa/coreplus.html?key=jq981528')
 
-WebUI.setText(findTestObject('Object Repository/Page_ARB Banking System/input_Username_xui.UI.Input-INPUTc'), 'HUBERTUS')
+WebUI.setText(findTestObject('Object Repository/UbahData/Page_ARB Banking System/input_Username_xui.UI.Input-INPUTc'), 'HUBERTUS')
 
 WebUI.click(findTestObject('Object Repository/Page_ARB Banking System/input_Password_xui.UI.ComboInput-INPUTj'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_ARB Banking System/input_Password_xui.UI.ComboInput-INPUTj'),
-	'ZnRK2WismzjXFIOC0MnUBQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/UbahData/Page_ARB Banking System/input_Password_xui.UI.ComboInput-INPUTj'), 
+    'ZnRK2WismzjXFIOC0MnUBQ==')
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_ARB Banking System/input_Password_xui.UI.ComboInput-INPUTj'), Keys.chord(
-		Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/UbahData/Page_ARB Banking System/input_Password_xui.UI.ComboInput-INPUTj'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Stacks-CAPTION:a:b']"))
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/span_Favorites'))
 
-WebUI.rightClick(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.TreeView-BOX:a:']"))
+WebUI.rightClick(findTestObject('Object Repository/UbahData/Page_ARB Banking System/div_TEST EOD GL_xui.UI.TreeView-BOXa'))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.PopMenu-CAPTION:g:a']"))
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/span_Create New Favorite'))
+
+WebUI.setText(findTestObject('Object Repository/UbahData/Page_ARB Banking System/textarea_Add_xui.UI.Input-INPUTd'), 'GLPM0013')
+
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/span_Run'))
+
+WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:f:']"),'SALDO TEST')
  
-WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:d:']"),'GLPM0013')
+WebUI.sendKeys(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:f:']"), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:ae:']"))
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/img_koreksi_xui.UI.TreeGrid-CMDa-r_a_edit'))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Label-ICON:w:']"))
-
-WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:h:']"),'SALDO TEST')
+WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:h:']"),'SALDO TESTING')
 
 
 TestObject Periode = new TestObject("Periode")
@@ -55,13 +60,11 @@ WebUI.click(Periode)
 WebUI.delay(1)
 
 TestObject optionPeriode = new TestObject("optionPeriode")
-optionPeriode.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='TANGGAL AKHIR BULAN LALU']")
+optionPeriode.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='TANGGAL BERJALAN']")
 
 WebUI.waitForElementClickable(optionPeriode, 10)
 WebUI.click(optionPeriode)
 WebUI.delay(1)
-
-
 
 TestObject Keterangan = new TestObject("Keterangan")
 Keterangan.addProperty("id", ConditionType.EQUALS, "xui.UI.ComboInput-INPUT:p:")
@@ -71,23 +74,23 @@ WebUI.click(Keterangan)
 WebUI.delay(1)
 
 TestObject optionKeterangan = new TestObject("optionKeterangan")
-optionKeterangan.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='AKUMULASI SALDO DEBIT']")
+optionKeterangan.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='SALDO GL']")
 
 WebUI.waitForElementClickable(optionKeterangan, 10)
 WebUI.click(optionKeterangan)
 WebUI.delay(1)
- 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:ai:']"))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:ab:']"))
+WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:ai:']"))
+ 
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/span_Ya'))
 
 WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:aj:']"))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Image:c:']"))
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/img_START_xui.UI.Imagec'))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:a:']"))
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/span_Sign Out'))
 
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:v:']"))
- 
+WebUI.click(findTestObject('Object Repository/UbahData/Page_ARB Banking System/span_Yes'))
+
 WebUI.closeBrowser()
- 
+

@@ -44,7 +44,7 @@ WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id
 
 WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Label-ICON:w:']"))
 
-WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:h:']"),'SALDO TEST')
+WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:h:']"),'SALDO KREDIT TGL BERJALAN')
 
 
 TestObject Periode = new TestObject("Periode")
@@ -55,7 +55,7 @@ WebUI.click(Periode)
 WebUI.delay(1)
 
 TestObject optionPeriode = new TestObject("optionPeriode")
-optionPeriode.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='TANGGAL AKHIR BULAN LALU']")
+optionPeriode.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='TANGGAL BERJALAN']")
 
 WebUI.waitForElementClickable(optionPeriode, 10)
 WebUI.click(optionPeriode)

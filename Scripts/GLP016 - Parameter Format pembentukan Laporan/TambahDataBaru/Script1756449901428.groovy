@@ -38,43 +38,40 @@ WebUI.rightClick(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//
 
 WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.PopMenu-CAPTION:g:a']"))
  
-WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:d:']"),'GLPM0013')
+WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:d:']"),'GLPM0014')
 
 WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:ae:']"))
 
 WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Label-ICON:w:']"))
 
-WebUI.setText(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Input-INPUT:h:']"),'SALDO TEST')
+TestObject NamaLaporan = new TestObject("NamaLaporan")
+NamaLaporan.addProperty("id", ConditionType.EQUALS, "xui.UI.ComboInput-INPUT:o:")
 
-
-TestObject Periode = new TestObject("Periode")
-Periode.addProperty("id", ConditionType.EQUALS, "xui.UI.ComboInput-INPUT:o:")
-
-WebUI.waitForElementClickable(Periode, 10)
-WebUI.click(Periode)
+WebUI.waitForElementClickable(NamaLaporan, 10)
+WebUI.click(NamaLaporan)
 WebUI.delay(1)
 
-TestObject optionPeriode = new TestObject("optionPeriode")
-optionPeriode.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='TANGGAL AKHIR BULAN LALU']")
+TestObject optionNamaLaporan = new TestObject("optionNamaLaporan")
+optionNamaLaporan.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='CETAK MUTASI BUKU BESAR']")
 
-WebUI.waitForElementClickable(optionPeriode, 10)
-WebUI.click(optionPeriode)
+WebUI.waitForElementClickable(optionNamaLaporan, 10)
+WebUI.click(optionNamaLaporan)
 WebUI.delay(1)
 
 
 
-TestObject Keterangan = new TestObject("Keterangan")
-Keterangan.addProperty("id", ConditionType.EQUALS, "xui.UI.ComboInput-INPUT:p:")
+TestObject Kolom1 = new TestObject("Kolom1")
+Kolom1.addProperty("id", ConditionType.EQUALS, "xui.UI.ComboInput-INPUT:p:")
 
-WebUI.waitForElementClickable(Keterangan, 10)
-WebUI.click(Keterangan)
+WebUI.waitForElementClickable(Kolom1, 10)
+WebUI.click(Kolom1)
 WebUI.delay(1)
 
-TestObject optionKeterangan = new TestObject("optionKeterangan")
-optionKeterangan.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='AKUMULASI SALDO DEBIT']")
+TestObject optionKolom1 = new TestObject("optionKolom1")
+optionKolom1.addProperty("xpath", ConditionType.EQUALS, "//div[contains(@class,'xui-list-item')]//span[normalize-space(text())='SALDO DEBIT TGL BERJALAN']")
 
-WebUI.waitForElementClickable(optionKeterangan, 10)
-WebUI.click(optionKeterangan)
+WebUI.waitForElementClickable(optionKolom1, 10)
+WebUI.click(optionKolom1)
 WebUI.delay(1)
  
 WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:ai:']"))
