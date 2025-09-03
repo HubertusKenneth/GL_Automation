@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InfoSaldoGL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>546a2e7f-67d8-4e02-92f0-0523d2c1353f</testCaseGuid>
+</TestCaseEntity>

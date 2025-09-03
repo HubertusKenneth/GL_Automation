@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>UploadTransaksiAntarGL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5af7b5b-2378-4980-9c8b-cfa5c17a6713</testCaseGuid>
+</TestCaseEntity>

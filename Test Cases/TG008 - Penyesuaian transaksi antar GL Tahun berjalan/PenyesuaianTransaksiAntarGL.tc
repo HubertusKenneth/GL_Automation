@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PenyesuaianTransaksiAntarGL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f2adcb6-0ba6-4343-a211-81b441a5e31f</testCaseGuid>
+</TestCaseEntity>

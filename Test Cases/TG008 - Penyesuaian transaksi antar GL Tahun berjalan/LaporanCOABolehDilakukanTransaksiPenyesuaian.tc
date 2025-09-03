@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporanCOABolehDilakukanTransaksiPenyesuaian</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cffb3774-60da-4d7f-92a7-48a2bd2ff8a2</testCaseGuid>
+</TestCaseEntity>

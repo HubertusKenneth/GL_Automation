@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporanPembatalanTransaksiAntarGL</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4614af6e-095d-4cdc-b7fd-8c2f5b62a54a</testCaseGuid>
+</TestCaseEntity>

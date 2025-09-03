@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ParameterCOABolehTransaksiPenyesuaian</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ddac4f86-6508-4c5b-9d20-bc24c13c741a</testCaseGuid>
+</TestCaseEntity>
