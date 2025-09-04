@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporanNominatifRekeningAmortasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fe79c9a4-54c3-4c83-bd87-539987e10536</testCaseGuid>
+</TestCaseEntity>

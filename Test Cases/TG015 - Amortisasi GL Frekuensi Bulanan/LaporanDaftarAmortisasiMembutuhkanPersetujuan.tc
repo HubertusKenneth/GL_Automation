@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporanDaftarAmortisasiMembutuhkanPersetujuan</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7136ba4-478b-4ccb-a558-a4afad247bfa</testCaseGuid>
+</TestCaseEntity>

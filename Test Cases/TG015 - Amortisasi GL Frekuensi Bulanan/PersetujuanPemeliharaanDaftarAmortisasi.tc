@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersetujuanPemeliharaanDaftarAmortisasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0c66cda0-775f-4827-a9af-554914e6e792</testCaseGuid>
+</TestCaseEntity>

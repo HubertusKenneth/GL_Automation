@@ -40,7 +40,7 @@ WebUI.rightClick(findTestObject('Object Repository/LaporanData/Page_ARB Banking 
 WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/span_Create New Favorite'))
 
 WebUI.setText(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/textarea_Add_xui.UI.Input-INPUTd'), 
-    'GLRP0074')
+    'GLRP0066')
 
 WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/span_Run'))
 
@@ -55,8 +55,6 @@ WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking Syste
 WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/img_START_xui.UI.Imagec'))
 
 WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/span_Sign Out'))
-
-WebUI.click(new TestObject().addProperty('xpath', ConditionType.EQUALS, "//*[@id='xui.UI.Button-CAPTION:v:']"))
 
 WebUI.closeBrowser()
 

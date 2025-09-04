@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporanDaftarAmortisasi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>220611fd-8f03-44fb-b802-b160a5ebaf0f</testCaseGuid>
+</TestCaseEntity>

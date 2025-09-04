@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporaDaftarPemeliharaanABA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5a4d49c-ca3d-4fb0-9f78-336e3fb0ccda</testCaseGuid>
+</TestCaseEntity>

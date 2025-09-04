@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LaporanRincianAmortisasiPerRekening</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43cc6ef9-af18-436f-a868-6c621641b0a9</testCaseGuid>
+</TestCaseEntity>

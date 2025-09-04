@@ -40,7 +40,7 @@ WebUI.rightClick(findTestObject('Object Repository/LaporanData/Page_ARB Banking 
 WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/span_Create New Favorite'))
 
 WebUI.setText(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/textarea_Add_xui.UI.Input-INPUTd'), 
-    'GLRP0074')
+    'GLRP0068')
 
 WebUI.click(findTestObject('Object Repository/LaporanData/Page_ARB Banking System/span_Run'))
 
